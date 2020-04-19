@@ -3,13 +3,7 @@
     position: absolute;
     top: 325px;
     left: 550px;
-  }
-  #container2 {
-    position: absolute;
-    top: 325px;
-    right: 550px;
-  }
-
+}
   h2 {
     font-size: 50px;
   }
