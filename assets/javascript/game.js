@@ -197,7 +197,7 @@ var hangmanGame = {
       //  "<img class='band-image' src='images/" +
        // this.wordsToPick[this.wordInPlay].picture + "' alt='" +
        // this.wordsToPick[this.wordInPlay].song + "'>";
-           "<img class='band-image' src='Word_Guess_Game/assets/images/" + this.wordsToPick[this.wordInPlay].photo + "' alt='" + this.wordsToPick[this.wordInPlay].song + "'>";
+           "<img class='band-image' src='Word_Guess_Game/" + this.wordsToPick[this.wordInPlay].photo + "' alt='" + this.wordsToPick[this.wordInPlay].song + "'>";
         
         // Play an audio track of the band.
       var audio = new Audio(this.wordsToPick[this.wordInPlay].preview);
