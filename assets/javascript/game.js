@@ -194,12 +194,10 @@ var hangmanGame = {
       " By " + this.wordInPlay;
       // Update the image of the band on the page.
       document.querySelector("#band-div").innerHTML =
-      //  "<img class='band-image' src='images/" +
-       // this.wordsToPick[this.wordInPlay].picture + "' alt='" +
-       // this.wordsToPick[this.wordInPlay].song + "'>";
-           "<img class='band-image' src='" + this.wordsToPick[this.wordInPlay].photo + "' alt='" + this.wordsToPick[this.wordInPlay].song + "'>";
-        
-        // Play an audio track of the band.
+     "<img image' src='" +
+      this.wordsToPick[this.wordInPlay].photo + "'>";
+      this.wordsToPick[this.wordInPlay].song + "'>";
+      // Play an audio track of the band.
       var audio = new Audio(this.wordsToPick[this.wordInPlay].preview);
       audio.play();
       // return true, which will trigger the restart of our game in the updatePage function.
