@@ -204,7 +204,7 @@ var hangmanGame = {
     // If win is false, return false to the updatePage function.
     return false;
 
-};
+}
 // Initialize the game when the page loads.
 hangmanGame.setupGame();
 // When a key is pressed..
