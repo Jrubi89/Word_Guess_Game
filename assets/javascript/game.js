@@ -2,57 +2,57 @@ var hangmanGame = {
   // Object of all words that can be chosen, along with info such as their picture and a song clip.
   wordsToPick: {
     genesis: {
-      photo: "<img src='assets/images/genesis.jpg'>",
+      photo: "assets/images/genesis.jpg",
       song: "Illegal Alien",
       preview: "https://p.scdn.co/mp3-preview/b29a2b925b9654e0efaaff37504fd234307e0ad8"
     },
     madonna: {
-      photo: "<img src='assets/images/madonna.jpg'>",
+      photo: "assets/images/madonna.jpg",
       song: "Material Girl",
       preview: "https://p.scdn.co/mp3-preview/5ff7f7b7d2af1a747da275bed3c49054c01b5b1c"
     },
     toto: {
-      photo: "<img src='assets/images/toto.jpg'>",
+      photo: "assets/images/toto.jpg",
       song: "Rosanna",
       preview: "https://p.scdn.co/mp3-preview/7cef811eaeb7c7b98245750e73d9d68e9008f317"
     },
     queen: {
-      photo: "<img src='assets/images/queen.jpg'>",
+      photo: "assets/images/queen.jpg",
       song: "Princes of the Universe",
       preview: "https://p.scdn.co/mp3-preview/b84f24300476f3d3f20056d2388cc51db2e3891f"
     },
     u2: {
-      photo: "<img src='assets/images/u2.jpg'>",
+      photo: "assets/images/u2.jpg",
       song: "With or Without You",
       preview: "https://p.scdn.co/mp3-preview/28365dff1890075c1371628371cd0e5bbff9a3a3"
     },
     metallica: {
-      photo: "<img src='assets/images/metallica.jpg'>",,
+      photo: "assets/images/metallica.jpg",
       song: "Master of Puppets",
       preview: "https://p.scdn.co/mp3-preview/60e6f8dab43f176dd9fb5e795d4e6459bad52e9e"
     },
     journey: {
-      photo: "<img src='assets/images/journey.jpg'>",
+      photo: "assets/images/journey.jpg",
       song: "Don't Stop Believin'",
       preview: "https://p.scdn.co/mp3-preview/21b9abd3cd2eea634e17a917196fdd5ba2e82670"
     },
     inxs: {
-      photo: "<img src='assets/images/inxs.jpg'>", 
+      photo: "assets/images/inxs.jpg", 
       song: "Need You Tonight",
       preview: "https://p.scdn.co/mp3-preview/61b17a335d5afc1c4086b1b08e2400f0da147977"
     },
     poison: {
-      photo: "<img src='assets/images/poison.jpg'>",
+      photo: "assets/images/poison.jpg",
       song: "Fallen Angel",
       preview: "https://p.scdn.co/mp3-preview/0365ad1f152f1834b42b857c4625191cebf9f987"
     },
     rush: {
-      photo: "<img src='assets/images/rush.jpg'>",
+      photo: "assets/images/rush.jpg",
       song: "Limelight",
       preview: "https://p.scdn.co/mp3-preview/154987dfb07f2fc5ed7aa4d76b80c5dc08ff4d6b"
     },
     blondie: {
-      photo: "<img src='assets/images/blondie.jpg'>",
+      photo: "assets/images/blondie.jpg",
       song: "Call Me",
       preview: "https://p.scdn.co/mp3-preview/ed5a443bc86176135ebca8a114f66f4d814d4c90"
     }
