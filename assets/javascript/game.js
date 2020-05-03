@@ -193,8 +193,8 @@ var hangmanGame = {
       document.querySelector("#music").innerHTML = this.wordsToPick[this.wordInPlay].song +
       " By " + this.wordInPlay;
       // Update the image of the band on the page.
-      document.querySelector("#bandDiv").innerHTML =
-        "<img class='band-image' src= '" + 
+  }      document.querySelector("#bandDiv").innerHTML =
+        "<img class='band-image' src=" + pic.photo + ">"); 
         this.wordsToPick[this.wordInPlay].picture + "' alt='" +
         this.wordsToPick[this.wordInPlay].song + "'>";
       // Play an audio track of the band.
@@ -205,7 +205,7 @@ var hangmanGame = {
     }
     // If win is false, return false to the updatePage function.
     return false;
-  }
+
 };
 // Initialize the game when the page loads.
 hangmanGame.setupGame();
