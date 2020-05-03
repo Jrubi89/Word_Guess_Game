@@ -193,7 +193,7 @@ var hangmanGame = {
       document.querySelector("#music").innerHTML = this.wordsToPick[this.wordInPlay].song +
       " By " + this.wordInPlay;
       // Update the image of the band on the page.
-        document.querySelector("#bandDiv").innerHTML =
+    }     document.querySelector("#bandDiv").innerHTML =
         "<img class='band-image' src='" + this.wordsToPick[this.wordInPlay].picture + "' alt='" + this.wordsToPick[this.wordInPlay].song + "'>";
       // Play an audio track of the band.
       var audio = new Audio(this.wordsToPick[this.wordInPlay].preview);
